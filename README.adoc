@@ -283,6 +283,7 @@ npm start
 
 * http://expressjs.com/en/guide/database-integration.html[Database integration in express]
 * https://www.sqlite.org/download.html[Download SQLite-tools (Windows users)]
+* https://www.npmjs.com/package/sqlite3[SQLite with node]
 
 ----
 $ sqlite3 data.db
@@ -291,7 +292,7 @@ Enter ".help" for usage hints.
 sqlite> create table posts (title, content, author);
 sqlite> insert into posts values ("Some title", "Some content", "Joey");
 sqlite> select * from posts;
-wat|damn|Joey
+Some title|Some content|Joey
 sqlite> .quit
 ----
 
@@ -309,6 +310,28 @@ db.serialize(function() {
 
 db.close();
 ----
+
+== January 29
+
+More about sqlite.
+
+== February 1
+
+[horizontal]
+For...:: `npm install ___ --save`
+PostgreSQL database:: https://www.npmjs.com/package/pg[pg]
+SQLite database:: https://www.npmjs.com/package/sqlite3[sqlite3]
+File uploads:: https://www.npmjs.com/package/formidable[formidable]
+POST requests:: https://www.npmjs.com/package/body-parser[body-parser]
+HTTPS:: https://www.npmjs.com/package/letsencrypt[letsencrypt]
+Authentication:: https://www.npmjs.com/package/passport[passport]
+Asset bundling:: https://www.npmjs.com/package/broccoli[Broccoli]
+
+=== Passport
+
+* http://mherman.org/blog/2015/01/31/local-authentication-with-passport-and-express-4/[Blog post detailing how to use passport].
+* https://github.com/mjhea0/passport-local-express4[Example repo that goes with blog post].
+* http://stackoverflow.com/questions/23481817/node-js-passport-autentification-with-sqlite[Using passport with sqlite]
 
 == TODO (not now, just notes to self)
 
