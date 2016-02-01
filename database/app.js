@@ -14,17 +14,6 @@ var users = require('./routes/users');
 
 var app = express();
 
-var sqlite3 = require('sqlite3').verbose();
-var db = new sqlite3.Database('data.db');
-
-db.serialize(function() {
-  db.each('SELECT * FROM posts', function(err, row) {
-    console.log(row.title + ': ' + row.content + ': ' + row.author);
-  });
-});
-
-db.close();
-
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'hbs');
