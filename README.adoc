@@ -5,6 +5,8 @@
 . https://github.com/lawrancej/COMP3670-2016/blob/master/Setup.adoc[Setup all software]
 . https://github.com/lawrancej/COMP3670-2016/blob/master/Resources.adoc[Peruse relevant resources]
 . https://github.com/lawrancej/COMP3670-2016/blob/master/Git.adoc[How to use Git]
+. https://education.github.com/pack/join[Get the Github Student Developer Pack]
+. https://education.github.com/pack[Then, go here].
 
 == January 6
 
@@ -332,8 +334,13 @@ Asset bundling:: https://www.npmjs.com/package/broccoli[Broccoli]
 * http://mherman.org/blog/2015/01/31/local-authentication-with-passport-and-express-4/[Blog post detailing how to use passport].
 * https://github.com/mjhea0/passport-local-express4[Example repo that goes with blog post].
 * http://stackoverflow.com/questions/23481817/node-js-passport-autentification-with-sqlite[Using passport with sqlite]
+* https://xkcd.com/327/[Don't forget about Bobby tables] (*NEVER* build SQL queries with string concatenation)
+
 
 == TODO (not now, just notes to self)
+
+https://education.github.com/pack[Github student pack]
+https://www.heroku.com/pricing[Heroku free hosting]
 
 ----
 docker-machine ssh default

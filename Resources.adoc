@@ -17,6 +17,7 @@
 * http://daneden.github.io/animate.css/[Animate.css]
 * http://necolas.github.io/normalize.css/[Normalize.css]
 * http://lesscss.org/features/[Less]
+* https://github.com/chinchang/hint.css[Hint.css]
 
 |Frontend templates
 |* http://getbootstrap.com/getting-started/#download[Bootstrap]
